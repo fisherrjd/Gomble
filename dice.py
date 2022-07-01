@@ -1,6 +1,4 @@
 import random
-from select import select
-from typing import List, Union, Tuple
 
 
 
@@ -9,9 +7,14 @@ class Die:
         self.sides = sides
 
         
-    def roll(self):
-        return random.randint(1,self.sides)
+    def throw(self):
+        return random.randint(1,6)
 
+
+crapDie = Die(6)
+
+tot = crapDie.throw
+print(tot)
     
 
 
