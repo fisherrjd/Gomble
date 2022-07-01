@@ -22,7 +22,5 @@ class Deck:
             c.show
 
 
-deck = Deck()
-
         
         

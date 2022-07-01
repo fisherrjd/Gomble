@@ -28,9 +28,3 @@ class Card:
 
     def show(self):
         print (self.rank)
-
-
-card = Card("d", 2)
-
-card.show()
-
