@@ -27,7 +27,10 @@ class Card:
             self.value = self.rank
 
     def show(self):
-        print (self.value + "of" + self.rank)
+        print (self.rank)
+
 
 card = Card("d", 2)
+
+card.show()
 

@@ -12,7 +12,7 @@ class Deck:
     def build(self):
         for x in ["d", "c", "h", "s"]:
             for v in range(1,14):
-                self.cards.append(card(x, v))
+                self.cards.append(card.Card(x, v))
     
     def shuffle(self):
         print("shuffle")
@@ -23,6 +23,6 @@ class Deck:
 
 
 deck = Deck()
-deck.show
+
         
         
