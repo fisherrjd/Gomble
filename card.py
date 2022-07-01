@@ -16,7 +16,7 @@ class Card:
         return self.rank
 
     def getSuit(self):
-        return self.suit
+        return self.suits
 
     def bjValue(self):
         if self.rank == "Ace":
@@ -25,4 +25,9 @@ class Card:
             self.value = 10
         else:
             self.value = self.rank
+
+    def show(self):
+        print (self.value + "of" + self.rank)
+
+card = Card("d", 2)
 
