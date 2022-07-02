@@ -27,7 +27,7 @@ class Card:
             self.value = self.rank
 
     def show(self):
-        print (self.rank)
+        print (self.rank, " of ", self.suit)
 
 
 class Deck:
@@ -39,8 +39,7 @@ class Deck:
     def build(self):
         for x in ["d", "c", "h", "s"]:
             for v in range(1,14):
-                self.cards.append(Card(x, v))
-    
+                self.cards.append(Card(x, v))    
     def shuffle(self):
         print("shuffle")
 

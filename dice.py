@@ -9,7 +9,7 @@ class Die:
 class Throw:
     def __init__(self, totDice):
         totDice = totDice
-        total = 0;
+        total = 0
 
     def throw(self):
         for x in totDice:
