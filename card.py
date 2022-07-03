@@ -1,3 +1,4 @@
+#Class for individual playing cards
 class Card:
     def __init__(self, suit, rank):
         self.ranks = [None, "Ace", 2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King"]
@@ -24,11 +25,12 @@ class Card:
         print (self.rank, " of ", self.suit)
 
 
+#Class for creating a Deck of Cards
 class Deck:
     def __init__(self):
 
         self.cards = []
-        self.build()
+        self.build(self)
     
     def build(self):
         for x in ["d", "c", "h", "s"]:

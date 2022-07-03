@@ -1,11 +1,7 @@
 import card
 
-def main():
-    deck1 = card.Deck
+deck1 = card.Deck
 
-    deck1.build
-    deck1.show
+deck1.build
+deck1.showTop
 
-if __name__ == "__main__":
-    main()
-    
